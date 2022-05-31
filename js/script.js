@@ -1,9 +1,9 @@
 
 // Ask info
 alert("Create your passworld")
-const userName = prompt('Dimmi il tuo Nome');
-const userFirstName = prompt('Dimmi il tuo Cognome');
-const userColor = prompt('Dimmi il tuo colore preferito');
+let userName = prompt('Dimmi il tuo Nome');
+let userFirstName = prompt('Dimmi il tuo Cognome');
+let userColor = prompt('Dimmi il tuo colore preferito');
 let NumberToAdd = 21;
 
 // Test if i take all info
@@ -11,8 +11,16 @@ console.log(userName + userFirstName + userColor);
 console.log(userName);
 
 // Per vedere se ricordavo qualcosa
-if(userName == 0 || userFirstName == 0 || userColor == 0 ){
-  alert("DEVI SCRIVERE DEI CARATTERI!")
+if(userName == 0){
+  let userName = prompt('Dimmi un nome valido');
+}
+
+if(userFirstName == 0){
+  let userFirstName = prompt('Dimmi un Cognome valido');
+}
+
+if(userColor == 0 ){
+  let userColor = prompt('Dimmi un colore valido');
 }
 
 // Create Password
