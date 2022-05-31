@@ -10,6 +10,8 @@ let NumberToAdd = 21;
 console.log(userName + userFirstName + userColor);
 console.log(userName);
 
+/* Only for fun
+
 // Per vedere se ricordavo qualcosa
 if(userName == 0){
   let userName = prompt('Dimmi un nome valido');
@@ -22,6 +24,7 @@ if(userFirstName == 0){
 if(userColor == 0 ){
   let userColor = prompt('Dimmi un colore valido');
 }
+*/
 
 // Create Password
 const userPassword = userName + userFirstName + userColor + NumberToAdd;
