@@ -8,7 +8,6 @@ let NumberToAdd = 21;
 
 // Test if i take all info
 console.log(userName + userFirstName + userColor);
-console.log(userName);
 
 /* Only for fun
 
@@ -32,3 +31,4 @@ console.log(userName + userFirstName + userColor + NumberToAdd);
 
 // Message output
 document.getElementById('user-password').innerHTML = userPassword;
+alert("La tua Password è " + userPassword);
